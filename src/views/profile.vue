@@ -112,7 +112,7 @@
             <h3 class="HeadingTwo">
               <span>
                 Contact
-                <span v-html="rawqawg"></span>
+                <span v-html="rawzui2"></span>
               </span>
               <span>Information</span>
             </h3>
@@ -203,15 +203,15 @@ export default {
   },
   data() {
     return {
-      rawqawg: ' ',
+      rawzui2: ' ',
     }
   },
   metaInfo: {
-    title: 'Profile - Soft UI Pro',
+    title: 'Profile - Dylan Martínez - Portfolio',
     meta: [
       {
         property: 'og:title',
-        content: 'Profile - Soft UI Pro',
+        content: 'Profile - Dylan Martínez - Portfolio',
       },
     ],
   },

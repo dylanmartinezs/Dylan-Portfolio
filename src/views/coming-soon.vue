@@ -118,11 +118,11 @@ export default {
     FooterGray,
   },
   metaInfo: {
-    title: 'ComingSoon - Soft UI Pro',
+    title: 'ComingSoon - Dylan Martínez - Portfolio',
     meta: [
       {
         property: 'og:title',
-        content: 'ComingSoon - Soft UI Pro',
+        content: 'ComingSoon - Dylan Martínez - Portfolio',
       },
     ],
   },

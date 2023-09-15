@@ -399,11 +399,11 @@ export default {
     GalleryCard21,
   },
   metaInfo: {
-    title: 'Soft UI Pro',
+    title: 'Dylan Martínez - Portfolio',
     meta: [
       {
         property: 'og:title',
-        content: 'Soft UI Pro',
+        content: 'Dylan Martínez - Portfolio',
       },
     ],
   },

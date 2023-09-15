@@ -70,7 +70,7 @@
       <span class="footer-gray-text20 Small">
         <span>
           All rights reserved. Copyright © 2021 Soft UI Design System by
-          <span v-html="raw6ddd"></span>
+          <span v-html="rawjr1w"></span>
         </span>
         <span class="footer-gray-text22">Creative Tim</span>
         <span>.</span>
@@ -85,7 +85,7 @@ export default {
   props: {},
   data() {
     return {
-      raw6ddd: ' ',
+      rawjr1w: ' ',
     }
   },
 }
