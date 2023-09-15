@@ -1,0 +1,101 @@
+<template>
+  <div class="feature-card-container" v-bind:class="rootClassName">
+    <img :alt="image_alt" :src="image_src" class="feature-card-image" />
+    <h5 class="feature-card-text HeadingThree">{{ new_prop }}</h5>
+    <span class="feature-card-text1">{{ text }}</span>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'FeatureCard',
+  props: {
+    image_src: {
+      type: String,
+      default: '/rocket1.svg',
+    },
+    image_alt: {
+      type: String,
+      default: 'image',
+    },
+    rootClassName: String,
+    text: {
+      type: String,
+      default: 'Get the latest design ideas and turn it into reality.',
+    },
+    new_prop: {
+      type: String,
+      default: 'Design',
+    },
+  },
+}
+</script>
+
+<style scoped>
+.feature-card-container {
+  flex: 0 0 auto;
+  width: 298px;
+  height: 221px;
+  display: flex;
+  padding: var(--dl-space-space-triplequarterunit);
+  box-shadow: 5px 5px 10px 0px #000000;
+  margin-top: var(--dl-space-space-triplequarterunit);
+  transition: 0.3s;
+  align-items: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: #7f1dc9;
+  border-width: 5px;
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  background-color: #232323;
+}
+.feature-card-container:hover {
+  width: 332px;
+  height: 232px;
+  padding: var(--dl-space-space-unit);
+}
+.feature-card-image {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.feature-card-text {
+  color: #6094e8;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.feature-card-text1 {
+  color: #899ac0;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.feature-card-root-class-name {
+  align-self: center;
+}
+.feature-card-root-class-name1 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-triplequarterunit);
+}
+.feature-card-root-class-name2 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-triplequarterunit);
+}
+@media(max-width: 991px) {
+  .feature-card-container {
+    width: 75%;
+  }
+}
+@media(max-width: 767px) {
+  .feature-card-container {
+    width: 50%;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card-container {
+    width: 75%;
+  }
+}
+</style>
