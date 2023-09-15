@@ -2,36 +2,15 @@
   "name": "dylan-martnez-portfolio",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
   "dependencies": {
-    "vue": "^2.6.7",
-    "vue-router": "^3.0.2",
-    "vue-meta": "^2.2.1",
-    "@lottiefiles/vue-lottie-player": "1.0.4",
-    "dangerous-html": "0.1.13"
+    "parcel-bundler": "^1.6.1"
+  },
+  "scripts": {
+    "tailwind": "tailwindcss -o style.css -c ./tailwind.config.js"
   },
   "devDependencies": {
-    "@vue/babel-preset-app": "^5.0.8",
-    "@vue/cli-plugin-babel": "^5.0.4",
-    "@vue/cli-service": "^5.0.8",
-    "vue-template-compiler": "^2.6.7",
-    "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24",
-    "postcss-loader": "^7.0.0"
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {},
-      "tailwindcss": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14"
+  }
 }

@@ -67,6 +67,7 @@ module.exports = {
   },
   "plugins": [],
   "content": [
-    "./src/**/*.{vue,js,ts,jsx,tsx}"
+    "./src/**/*.{html,js,ts,jsx,tsx}",
+    "./*.html"
   ]
 }

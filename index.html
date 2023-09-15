@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dylan Martínez - Portfolio</title>
+    <meta property="og:title" content="Dylan Martínez - Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.625;
+        color: var(--dl-color-secondary-400);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="header-header">
+          <nav class="header-nav">
+            <div class="header-container">
+              <a href="index.html" class="header-navlink Large">
+                Dylan Martínez Sánchez
+              </a>
+              <div class="header-menu">
+                <a href="#projects" class="header-link Large">My projects</a>
+                <a href="#portfolio" class="header-link1 Large">Portfolio</a>
+                <a href="coming-soon.html" class="header-navlink1">
+                  <span>Contact</span>
+                  <br />
+                </a>
+              </div>
+              <div class="header-container1">
+                <div class="header-container2">
+                  <a
+                    href="mailto:dylanmartinezs@outlook.com?subject=Web contact"
+                    class="header-link2"
+                  >
+                    <div class="primary-pink-button-container">
+                      <button
+                        class="primary-pink-button-button button ButtonSmall"
+                      >
+                        <span>contact me</span>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div data-role="BurgerMenu" class="header-burger-menu">
+                  <svg viewBox="0 0 1024 1024" class="header-icon">
+                    <path
+                      d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div data-role="MobileMenu" class="header-mobile-menu">
+            <div class="header-top">
+              <a href="index.html" class="header-navlink2 Large">
+                Soft UI Design System
+              </a>
+              <div data-role="CloseMobileMenu" class="header-close-menu">
+                <svg viewBox="0 0 1024 1024" class="header-icon2">
+                  <path
+                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="header-mid">
+              <div class="header-menu1">
+                <a href="index.html" class="header-navlink3 Large">Home</a>
+                <a href="profile.html" class="header-navlink4 Large">Profile</a>
+                <a href="coming-soon.html" class="header-navlink5 Large">
+                  Coming Soon
+                </a>
+              </div>
+            </div>
+            <div class="header-bot">
+              <div class="primary-pink-button-container">
+                <button class="primary-pink-button-button button ButtonSmall">
+                  <span>buy now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-hero parallax">
+          <div class="home-container01">
+            <div class="home-container02">
+              <img
+                alt="image"
+                src="https://i.imgur.com/4SjzurP.png"
+                class="home-image"
+              />
+              <div class="home-card">
+                <h1 class="home-text HeadingOne">Dylan Martínez Sánchez</h1>
+                <h2 class="home-text01 HeadingOne">
+                  Game Designer, 3D Artist and Unreal Developer
+                </h2>
+                <span class="home-text02">
+                  I am a passionate for videogames, with experience in 3D design
+                  and Unreal Engine development. Trained in the usage of Unreal
+                  and in game design, I am looking forward to start building my
+                  career and to grow as a professional in the videogame
+                  industry.
+                </span>
+                <div class="home-container03">
+                  <div class="home-container04">
+                    <div
+                      class="primary-pink-button-container primary-pink-button-root-class-name"
+                    >
+                      <button
+                        class="primary-pink-button-button button ButtonSmall"
+                      >
+                        <span>contact me</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="outline-gray-button-container outline-gray-button-root-class-name"
+                  >
+                    <button
+                      class="outline-gray-button-button button ButtonSmall"
+                    >
+                      <span>read more</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="home-container05">
+                  <img
+                    alt="unreal engine logo"
+                    src="https://cdn2.unrealengine.com/ue-logo-stacked-unreal-engine-w-677x545-fac11de0943f.png"
+                    class="home-image01"
+                  />
+                  <img
+                    alt="blender logo"
+                    src="https://assets.stickpng.com/images/62066bb2d7b91b0004122604.png"
+                    class="home-image02"
+                  />
+                  <img
+                    alt="image"
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4d/DaVinci_Resolve_Studio.png"
+                    class="home-image03"
+                  />
+                  <img
+                    alt="image"
+                    src="https://affinity.help/_assets/af_logo_white_pt_trans_rgb_noAffinity.png"
+                    class="home-image04"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="https://i.imgur.com/j5fdsn8.png"
+            class="home-image05"
+          />
+        </div>
+        <section class="home-features">
+          <h1 class="home-text03">
+            <span class="HeadingOne">Which are my specialities</span>
+            <br />
+          </h1>
+          <div class="home-container06">
+            <div class="home-container07">
+              <div class="feature-card-container feature-card-root-class-name">
+                <img
+                  alt="image"
+                  src="https://cdn-icons-png.flaticon.com/512/8213/8213440.png"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text HeadingThree">
+                  <span>3D Art</span>
+                </h5>
+                <span class="feature-card-text1">
+                  <span>
+                    Sculpting ideas into 3D wonders: where vision meets
+                    dimension!
+                  </span>
+                </span>
+              </div>
+              <div class="feature-card-container feature-card-root-class-name1">
+                <img
+                  alt="image"
+                  src="https://cdn-icons-png.flaticon.com/512/8213/8213526.png"
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text HeadingThree">
+                  <span>Game Design</span>
+                </h5>
+                <span class="feature-card-text1">
+                  <span>
+                    Designing dreams, crafting worlds. From the concept to
+                    reality.
+                  </span>
+                </span>
+              </div>
+              <div class="feature-card-container feature-card-root-class-name2">
+                <img
+                  alt="image"
+                  src="   https://cdn-icons-png.flaticon.com/512/8002/8002123.png "
+                  class="feature-card-image"
+                />
+                <h5 class="feature-card-text HeadingThree">
+                  <span>Unreal Engine</span>
+                </h5>
+                <span class="feature-card-text1">
+                  <span>
+                    The most powerful game engine. The limit is no longer
+                    imagination!
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-testimonials">
+          <img
+            alt="image"
+            src="public/bottom.svg"
+            class="home-bottom-wave-image"
+          />
+          <img
+            alt="image"
+            src="https://i.imgur.com/giU3eW5.png"
+            class="home-top-wave-image"
+          />
+        </section>
+        <div class="home-container08">
+          <section class="home-contaier">
+            <div class="home-container09">
+              <h1 id="projects" class="home-text06 HeadingTwo">
+                Some of the projects I've worked on
+              </h1>
+              <span class="home-text07">
+                I will be posting in this section all the projects I have been
+                working on. As for now, there's only one, as I am just getting
+                started in the videogame industry. But I sure hope this section
+                will be filled with exciting new adventures I get the
+                opportunity to live!
+              </span>
+            </div>
+            <div class="home-container10">
+              <div class="home-container11">
+                <div class="home-container12"></div>
+              </div>
+              <div class="home-container13">
+                <h1 class="home-text08 HeadingTwo">Tears of Elara</h1>
+                <div class="list-item-container">
+                  <h5 class="list-item-text HeadingThree">
+                    <span>What is Tears of Elara?</span>
+                  </h5>
+                  <span>
+                    <span>
+                      Tears of Elara is an open world RPG project, set in a
+                      world where magic has changed everything.
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="list-item-dp-container list-item-dp-root-class-name"
+                >
+                  <h5 class="list-item-dp-text HeadingThree">
+                    <span>My role</span>
+                  </h5>
+                  <span class="list-item-dp-text1">
+                    <span>
+                      During my internships in Orenji games, my main task was to
+                      be the game designer for ToE. I made the GDD and
+                      coordinated creative decisions.
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      I also helped with the environment building; designed and
+                      implemented Inventory, Quests and Dialogue systems; and
+                      designed some characters in 3D
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="home-container14">
+            <iframe
+              src="https://www.youtube.com/embed/FQ0jZcbIhJo?si=oaZkvmT8Cxd-QzG3"
+              class="home-iframe"
+            ></iframe>
+          </div>
+          <div class="home-container15">
+            <div class="home-div">
+              <script
+                src="https://cdn.commoninja.com/sdk/latest/commonninja.js"
+                defer=""
+              ></script>
+              <div
+                class="commonninja_component pid-2e80d0c8-94ca-4db7-94f8-9aa05200b7ae"
+              ></div>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/bottom.svg"
+            class="home-bottom-wave-image1"
+          />
+        </div>
+        <section class="home-testimonials1">
+          <img alt="image" src="public/top.svg" class="home-top-wave-image1" />
+        </section>
+        <div class="home-container16">
+          <div class="home-container17">
+            <h1 id="portfolio" class="home-text09 HeadingTwo">
+              My portfolio and social media
+            </h1>
+            <span class="home-text10">
+              <span>
+                In these pages, you will find my most important artwork and
+                information.
+              </span>
+              <br />
+            </span>
+            <div class="home-social-bar">
+              <div class="home-artstation">
+                <div class="home-container18">
+                  <img
+                    alt="image"
+                    src="https://img.icons8.com/?size=256&amp;id=MhdWZX0TILMX&amp;format=png&amp;color=1A6DFF,C822FF"
+                    class="home-image06"
+                  />
+                  <h1 class="home-text13">Artstation</h1>
+                </div>
+                <a
+                  href="https://www.artstation.com/ravnfrost"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link"
+                >
+                  <img
+                    alt="image"
+                    src="https://www.artstation.com/api/v2/image_capture/digital_cards/ravnfrost.png"
+                    class="home-image07"
+                  />
+                </a>
+              </div>
+              <div class="home-artstation1">
+                <div class="home-container19">
+                  <img
+                    alt="image"
+                    src="https://img.icons8.com/?size=256&amp;id=79107&amp;format=png"
+                    class="home-image08"
+                  />
+                  <h1 class="home-text14">Sketchfab</h1>
+                </div>
+                <a
+                  href="https://sketchfab.com/dylanmartinezs"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link1"
+                >
+                  <img
+                    alt="image"
+                    src="https://i.imgur.com/ce4Zbua.png"
+                    class="home-image09"
+                  />
+                </a>
+              </div>
+              <div class="home-artstation2">
+                <div class="home-container20">
+                  <img
+                    alt="image"
+                    src="https://img.icons8.com/?size=256&amp;id=44019&amp;format=png&amp;color=1A6DFF,C822FF"
+                    class="home-image10"
+                  />
+                  <h1 class="home-text15">LinkedIn</h1>
+                </div>
+                <a
+                  href="https://www.linkedin.com/in/dylanm99/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link2"
+                >
+                  <img
+                    alt="image"
+                    src="https://i.imgur.com/ryrGlIO.jpg"
+                    class="home-image11"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <h1 class="home-text16 HeadingTwo">And there's more!</h1>
+          <div class="home-gallery">
+            <div class="home-container21">
+              <div class="home-container22">
+                <div class="home-container23">
+                  <div
+                    class="gallery-card2-gallery-card gallery-card2-root-class-name2"
+                  >
+                    <div id="card-container" class="gallery-card2-container">
+                      <div class="gallery-card2-container1">
+                        <h2 class="gallery-card2-text"><span>Lua</span></h2>
+                        <span class="gallery-card2-text1">
+                          <span>Lua cat model for a school project</span>
+                        </span>
+                      </div>
+                    </div>
+                    <img
+                      id="back-img"
+                      alt="image"
+                      src="https://i.imgur.com/NXWcOB4.png"
+                      class="gallery-card2-image"
+                    />
+                  </div>
+                </div>
+                <div class="home-container24">
+                  <div
+                    class="gallery-card2-gallery-card gallery-card2-root-class-name3"
+                  >
+                    <div id="card-container" class="gallery-card2-container">
+                      <div class="gallery-card2-container1">
+                        <h2 class="gallery-card2-text">
+                          <span>Samhain mask</span>
+                        </h2>
+                        <span class="gallery-card2-text1">
+                          <span>Mask for the Samhain (Halloween) festival</span>
+                        </span>
+                      </div>
+                    </div>
+                    <img
+                      id="back-img"
+                      alt="image"
+                      src="https://i.imgur.com/IQHlGO9.png"
+                      class="gallery-card2-image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="home-container25">
+                <div
+                  class="gallery-card2-gallery-card gallery-card2-root-class-name1"
+                >
+                  <div id="card-container" class="gallery-card2-container">
+                    <div class="gallery-card2-container1">
+                      <h2 class="gallery-card2-text"><span>Minikrab</span></h2>
+                      <span class="gallery-card2-text1">
+                        <span>
+                          Minikrab sculpt, an enemy from Tears of Elara
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <img
+                    id="back-img"
+                    alt="image"
+                    src="https://i.imgur.com/62mvzI8.png"
+                    class="gallery-card2-image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="home-container26">
+              <div
+                class="gallery-card2-gallery-card gallery-card2-root-class-name4"
+              >
+                <div id="card-container" class="gallery-card2-container">
+                  <div class="gallery-card2-container1">
+                    <h2 class="gallery-card2-text"><span>Demogorgon</span></h2>
+                    <span class="gallery-card2-text1">
+                      <span>
+                        Stylized Demogorgon from the Netflix series "Stranger
+                        Things"
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <img
+                  id="back-img"
+                  alt="image"
+                  src="https://i.imgur.com/cev8IxT.png"
+                  class="gallery-card2-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="home-gallery1">
+            <div class="home-container27">
+              <div
+                class="gallery-card21-gallery-card gallery-card21-root-class-name4"
+              >
+                <div class="gallery-card21-container">
+                  <div class="gallery-card21-container1">
+                    <h2 class="gallery-card21-text">
+                      <span>Wraith's kunai</span>
+                    </h2>
+                    <span class="gallery-card21-text1">
+                      <span>
+                        The kunai the character Wraith has as a Heirloom in Apex
+                        Legends
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <img
+                  alt="image"
+                  src="https://i.imgur.com/j7Tnggt.jpg"
+                  class="gallery-card21-image"
+                />
+              </div>
+            </div>
+            <div class="home-container28">
+              <div class="home-container29">
+                <div
+                  class="gallery-card21-gallery-card gallery-card21-root-class-name"
+                >
+                  <div class="gallery-card21-container">
+                    <div class="gallery-card21-container1">
+                      <h2 class="gallery-card21-text">
+                        <span>Bastiodon</span>
+                      </h2>
+                      <span class="gallery-card21-text1">
+                        <span>
+                          Bastiodon low-poly model, one of my first 3D designs
+                          ever.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <img
+                    alt="image"
+                    src="https://i.imgur.com/d7uxbCL.png"
+                    class="gallery-card21-image"
+                  />
+                </div>
+              </div>
+              <div class="home-container30">
+                <div class="home-container31">
+                  <div
+                    class="gallery-card21-gallery-card gallery-card21-root-class-name2"
+                  >
+                    <div class="gallery-card21-container">
+                      <div class="gallery-card21-container1">
+                        <h2 class="gallery-card21-text"><span>Tora</span></h2>
+                        <span class="gallery-card21-text1">
+                          <span>Tora cat, for the same project as Lua</span>
+                        </span>
+                      </div>
+                    </div>
+                    <img
+                      alt="image"
+                      src="https://i.imgur.com/n0HwNh5.png"
+                      class="gallery-card21-image"
+                    />
+                  </div>
+                </div>
+                <div class="home-container32">
+                  <div
+                    class="gallery-card21-gallery-card gallery-card21-root-class-name3"
+                  >
+                    <div class="gallery-card21-container">
+                      <div class="gallery-card21-container1">
+                        <h2 class="gallery-card21-text">
+                          <span>Pixel bow</span>
+                        </h2>
+                        <span class="gallery-card21-text1">
+                          <span>
+                            Hytale style bow, with pixel perfect textures and
+                            PBR maps
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <img
+                      alt="image"
+                      src="https://i.imgur.com/f90VIkZ.png"
+                      class="gallery-card21-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/bottom.svg"
+            class="home-bottom-wave-image2"
+          />
+        </div>
+        <div class="home-hero1">
+          <span class="home-text17">
+            <span>CONTACT</span>
+            <br />
+          </span>
+          <h1 class="home-text20">Are you convinced yet?</h1>
+          <div class="home-container33">
+            <a
+              href="mailto:dylanmartinezs@outlook.com?subject=Website contact"
+              class="home-link3 button"
+            >
+              <span class="home-text21">
+                <span class="home-text22">LET'S TALK</span>
+                <br />
+              </span>
+            </a>
+          </div>
+          <img
+            alt="image"
+            src="https://i.imgur.com/W6gcCuR.jpg"
+            class="home-image12"
+          />
+          <img alt="image" src="public/top.svg" class="home-top-wave-image2" />
+        </div>
+        <footer class="home-footer">
+          <a href="index.html" class="home-navlink Large">
+            Dylan Martínez Sánchez
+          </a>
+          <span class="home-text24">
+            Game designer, 3D artists and Unreal developer
+          </span>
+          <div class="home-icon-group">
+            <img
+              alt="image"
+              src="https://img.icons8.com/?size=256&amp;id=MhdWZX0TILMX&amp;format=png&amp;color=1A6DFF,C822FF"
+              class="home-image13"
+            />
+            <img
+              alt="image"
+              src="https://img.icons8.com/?size=256&amp;id=79107&amp;format=png"
+              class="home-image14"
+            />
+            <img
+              alt="image"
+              src="https://img.icons8.com/?size=256&amp;id=44019&amp;format=png&amp;color=1A6DFF,C822FF"
+              class="home-image15"
+            />
+            <img
+              alt="image"
+              src="https://img.icons8.com/?size=256&amp;id=43625&amp;format=png"
+              class="home-image16"
+            />
+            <img
+              alt="image"
+              src="https://img.icons8.com/?size=256&amp;id=bYzsf9Bmocst&amp;format=png&amp;color=1A6DFF,C822FF"
+              class="home-image17"
+            />
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
